@@ -114,7 +114,7 @@ pip install -r requirements.txt
 
 The trained NanoQA model (~500MB) is not stored in this repo. Download it from:
 
-**[Google Drive — nanoqa_v4_best.pt](https://drive.google.com/your-link-here)**
+**[HuggingFace — nanoqa-v4] https://huggingface.co/2hani2/nanoqa-v4/tree/main**
 
 Then place it in the model folder:
 ```bash
@@ -122,6 +122,7 @@ mkdir -p model
 # move the downloaded file here:
 # model/nanoqa_v4_best.pt
 ```
+wget https://huggingface.co/2hani2/nanoqa-v4/resolve/main/nanoqa_v4_best.pt -P model/
 
 ### Configure environment
 
