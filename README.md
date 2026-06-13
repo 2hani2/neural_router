@@ -1,4 +1,4 @@
-cat > README.md << 'READMEEOF'
+
 # Neural Router v4
 
 > A confidence-gated SLM–LLM cascade for efficient question answering.
